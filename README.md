@@ -17,11 +17,10 @@ git clone https://github.com/s1ntecs/table_single_page.git
 ```
 После создания файла .env:
 
-
+```
   - docker-compose up -d --build 
 
 ```
-
 
 Теперь в контейнере web нужно выполнить миграции, создать суперпользователя и собрать статику:
 
